@@ -11,6 +11,7 @@ import { useContext } from "react";
 
 const App = () => {
   const { user } = useContext(Context);
+
   return (
     <>
       <Router>
