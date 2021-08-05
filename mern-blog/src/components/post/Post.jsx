@@ -6,7 +6,7 @@ const Post = ({ post }) => {
   return (
     <div className="post">
       {post.photo && <img className="postImg" src={PF + post.photo} alt="" />}
-      <div className="postInfo">
+      <div style={{ padding: ".5rem" }} className="postInfo">
         <div className="postCats">
           {post.categories.map((category) => (
             <span className="postCat">{category.name}</span>

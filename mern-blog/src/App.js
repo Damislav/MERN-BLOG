@@ -8,7 +8,7 @@ import Homepage from "./pages/homepage/Homepage";
 import TopBar from "./components/topbar/TopBar";
 import { Context } from "./context/Context";
 import { useContext } from "react";
-
+import "./App.css";
 const App = () => {
   const { user } = useContext(Context);
 

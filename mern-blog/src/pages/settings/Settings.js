@@ -80,6 +80,7 @@ const Settings = () => {
           />
           <label>Password</label>
           <input
+            // placeholder={user.password}
             type="password"
             onChange={(e) => setPassword(e.target.value)}
           />

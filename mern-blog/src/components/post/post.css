@@ -24,7 +24,7 @@
   font-size: 11px;
   color: #be9656;
   line-height: 19px;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-right: 10px;
   cursor: pointer;
 }
@@ -51,8 +51,10 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  padding-bottom: 0.5rem;
   color: #444444;
-  margin-top: 15px;
+  margin-top: 5px;
+  border-bottom: 1px solid #4444443f;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;

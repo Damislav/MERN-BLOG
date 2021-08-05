@@ -1,0 +1,42 @@
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 800px) {
+  .sidebar {
+    display: none;
+  }
+  .posts {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .top {
+    margin-top: 5rem;
+
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .headerTitleSm {
+    top: 19%;
+  }
+  .header {
+    margin-top: 35px;
+  }
+  .topCenter {
+    margin: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 480px) {
+  .post {
+    width: 100%;
+  }
+  .postImg {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 380px) {
+}

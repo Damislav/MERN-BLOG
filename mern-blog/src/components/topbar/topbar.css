@@ -6,7 +6,9 @@
   top: 0;
   display: flex;
   align-items: center;
+  margin-top: 2rem;
   z-index: 999;
+  flex-direction: row;
   font-family: "Josefin Sans", sans-serif;
 }
 
